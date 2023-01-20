@@ -5,6 +5,7 @@ import stickers from '../assets/Group 320.png';
 import group from "../assets/bg.png";
 import quality from"../assets/Group 331.png";
 import review from "../assets/Group 332.png";
+import bannerPic from "../assets/istockphoto-1380983332-612x612.png"
 
 function banner() {
   return (
@@ -28,7 +29,7 @@ function banner() {
           </div>
         </div>
         <div>
-        <img className= "bannerPic"src={group} alt="group" />
+        <img className= "bannerPic"src={bannerPic} alt="group" />
         </div>
         <img className="review" src={review} alt='review'/>
         <img className="quality" src={quality} alt='quality'/>

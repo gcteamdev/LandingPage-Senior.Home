@@ -2,10 +2,10 @@ import React from 'react';
 import './Body.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import cardPic1 from '../assets/bg.png';
-import cardPic2 from '../assets/bg.png';
-import cardPic3 from '../assets/bg.png';
-import cardPic4 from '../assets/bg.png';
+import cardPic2 from '../assets/istockphoto-1286546794-612x612.png';
+import cardPic3 from '../assets/istockphoto-1097353864-612x612.png';
+import cardPic1 from '../assets/istockphoto-471910611-612x612.png';
+import cardPic4 from '../assets/group-dining-resized-.png';
 
 function body() {
   return (
@@ -52,7 +52,7 @@ function body() {
         <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src={cardPic4} />
           <Card.Body>
-            <Card.Title>Outdoor activities</Card.Title>
+            <Card.Title>Friendly Environment</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.

@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <MDBNavbar expand='lg' light bgColor='light' className="navbar">
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>&#128330;&#65039;Horizon Living</MDBNavbarBrand>
+        <MDBNavbarBrand href='#' className="text-white">&#128330;&#65039;Horizon Living</MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
           data-target='#navbarText'
@@ -33,18 +33,18 @@ export default function Navbar() {
         <MDBCollapse navbar show={showNavText}>
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0 navbtns'>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#'>
+              <MDBNavbarLink active aria-current='page' href='#' className="text-white">
                Daily Living
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>Campus Tour</MDBNavbarLink>
+              <MDBNavbarLink href='#' className="text-white">Campus Tour</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>Resources</MDBNavbarLink>
+              <MDBNavbarLink href='#'className="text-white">Resources</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>Pricing</MDBNavbarLink>
+              <MDBNavbarLink href='#'className="text-white">Pricing</MDBNavbarLink>
             </MDBNavbarItem>
             <Button  className="btn btn-outline-success bg-warning">Sign In</Button>
           </MDBNavbarNav>
