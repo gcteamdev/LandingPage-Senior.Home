@@ -1,5 +1,6 @@
 # A Landing page for Senior Home living, created with React.js framework. I used css framework Bootstrap to achieve responsiveness, and also implemented Material UI. 
 ## This project was rather a challenge to myself to see if I can create a commercial Landing page under 2 hours. Which I was able to do so, however, took a bit longer to deploy it as there was some bug in the netlify site.
+<img src=".././netlifytest/src/assets/LandingPage.png" width="100">
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
