@@ -15,7 +15,7 @@ function body() {
       <button type="button" className="btn btn-outline-success bg-success text-white">Independent Living</button>
       <button type="button" className="btn btn-outline-light text-dark">Assisted Living</button>
       </div>
-      <div className="groupLivingCards">
+      <div className="groupLivingCards d-block d-md-flex">
         <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src={cardPic1} />
           <Card.Body>

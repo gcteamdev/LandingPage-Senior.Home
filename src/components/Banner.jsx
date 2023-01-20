@@ -2,7 +2,6 @@ import React from 'react';
 import './Banner.css';
 import bg from '../assets/bg.png';
 import stickers from '../assets/Group 320.png';
-import group from "../assets/bg.png";
 import quality from"../assets/Group 331.png";
 import review from "../assets/Group 332.png";
 import bannerPic from "../assets/istockphoto-1380983332-612x612.png"
@@ -10,7 +9,7 @@ import bannerPic from "../assets/istockphoto-1380983332-612x612.png"
 function banner() {
   return (
     <>
-      <div className="bannerPage">
+      <div className="bannerPage d-block d-lg-flex">
         <div>
           <div className="mt-5 p-5 banner-decription">
             <h4>Exprience Active</h4>
@@ -25,7 +24,7 @@ function banner() {
             </button>
             <br></br>
             <br></br>
-            <img src={stickers} alt="licences" />
+            <img className="d-none d-md-block" src={stickers} alt="licences" />
           </div>
         </div>
         <div>

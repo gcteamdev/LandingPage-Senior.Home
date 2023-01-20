@@ -7,7 +7,7 @@ import { MDBFooter } from 'mdb-react-ui-kit';
 function footer() {
   return (
     <div className="footerOuter">
-          <div className="footerInfoSection d-flex">
+          <div className="footerInfoSection d-block d-lg-flex">
       <div>
         <img  className="advocate"src={advocate} alt="advocate" />
       </div>
@@ -25,7 +25,7 @@ function footer() {
           malesuada. <br></br>Nulla porttitor accumsan tincidunt. Donec rutrum
           congue leo eget malesuada.
         </h6>
-        <Form>
+        <Form className="form">
         <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Control type="text" placeholder="Enter Name" />
           </Form.Group>
@@ -44,7 +44,7 @@ function footer() {
       </div>
     </div>
     <MDBFooter bgColor='light' className='text-center text-lg-left footer'>
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='text-center p-3 copyright' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         &copy; {new Date().getFullYear()} Copyright:{' '}
         <a className='text-white' href='https://gcteam.dev'>
           Hamza Dev
